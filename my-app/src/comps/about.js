@@ -25,8 +25,8 @@ const About = () => {
         <h3 className="text-xl font-semibold mb-2">Contact Us</h3>
         <p className="text-gray-700">
           Feel free to reach out to us at{' '}
-          <a className="text-blue-500" href="mailto:info@example.com">
-            davoodshaik43@gmail.com
+          <a className="text-blue-500" href="ravulachandrashekaryadav@gmail.com">
+            ravulachandrashekaryadav@gmail.com
           </a>
           .
         </p>
