@@ -10,29 +10,26 @@ const About = () => {
       <section className="mb-6">
         <h3 className="text-xl font-semibold mb-2">Our Mission</h3>
         <p className="text-gray-700">
-          Explain the mission and goals of your organization or project.
+          To empower students and professionals by providing personalized guidance, resources, and clear pathways to achieve their career aspirations, enabling them to make informed decisions and succeed in a rapidly changing job market.
         </p>
       </section>
 
       <section className="mb-6">
         <h3 className="text-xl font-semibold mb-2">Our Team</h3>
         <p className="text-gray-700">
-          Introduce the key members of your team and their roles.
+          The Career Navigator team is a group of dedicated members working together to design, develop, and deliver the platform for the students to achieve their career goal. By collaborating effectively, the team ensures that Career Navigator helps users explore and achieve their career goals.
         </p>
       </section>
 
       <section className="mb-6">
         <h3 className="text-xl font-semibold mb-2">Contact Us</h3>
         <p className="text-gray-700">
-          Feel free to reach out to us at{' '}
+          Feel free to reach out to us at{" "}
           <a className="text-blue-500" href="ravulachandrashekaryadav@gmail.com">
             ravulachandrashekaryadav@gmail.com
           </a>
-          .
         </p>
       </section>
-
-      {/* Add more sections as needed, such as History, Technology Stack, FAQs, etc. */}
 
       <section className="mb-6">
         <h3 className="text-xl font-semibold mb-2">Legal Information</h3>
@@ -55,16 +52,16 @@ const About = () => {
           Connect with us on{' '}
           <a
             className="text-blue-500"
-            href="https://twitter.com/example"
+            href="https://www.instagram.com/chandrashekarravula/#"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Twitter
+            Instagram
           </a>{' '}
           and{' '}
           <a
             className="text-blue-500"
-            href="https://www.facebook.com/example"
+            href="https://www.facebook.com/ravula.chandrashekar.7/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -73,8 +70,6 @@ const About = () => {
           .
         </p>
       </section>
-
-      {/* Add an Acknowledgments or Credits section if needed. */}
     </div>
   );
 };
