@@ -16,10 +16,9 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission logic here (e.g., send data to a server)
-    console.log('Form submitted:', formData);
+    alert('Message Submitted');
+    setFormData({ name: '', email: '', message: '' });
   };
-
 
   return (
     <div className="container mx-auto p-8">
