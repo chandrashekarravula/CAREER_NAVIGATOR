@@ -8,9 +8,11 @@ const UniversityCourses = () => {
       id: 1,
       degree: 'Bachelor of Science (B.Sc.)',
       courses: [
-        'Computer Science',
-        'Physics',
         'Mathematics',
+      'Physics',
+      'Chemistry',
+      'Biology',
+      'Computer Science',
       ],
     },
     {
@@ -22,8 +24,81 @@ const UniversityCourses = () => {
         'Psychology',
       ],
     },
-    // Add more degrees and courses as needed
-  ];
+  {
+    id: 3,
+    degree: 'Bachelor of Technology (B.Tech)',
+    courses: [
+      'Computer Science Engineering',
+      'Information Technology',
+      'Electronics and Communication Engineering',
+      'Mechanical Engineering',
+      'Civil Engineering',
+    ],
+  },
+  {
+    id: 4,
+    degree: 'Master of Technology (M.Tech)',
+    courses: [
+      'Artificial Intelligence',
+      'Data Science',
+      'Power Systems',
+      'Structural Engineering',
+    ],
+  },
+  
+  {
+    id: 5,
+    degree: 'Master of Science (M.Sc)',
+    courses: [
+      'Applied Mathematics',
+      'Microbiology',
+      'Biotechnology',
+      'Environmental Science',
+    ],
+  },
+  {
+    id: 6,
+    degree: 'Bachelor of Business Administration (BBA)',
+    courses: [
+      'Finance',
+      'Marketing',
+      'Human Resource Management',
+      'International Business',
+    ],
+  },
+  {
+    id: 7,
+    degree: 'Master of Business Administration (MBA)',
+    courses: [
+      'Finance',
+      'Marketing',
+      'Operations Management',
+      'Business Analytics',
+      'Entrepreneurship',
+    ],
+  },
+  {
+    id: 8,
+    degree: 'Bachelor of Commerce (B.Com)',
+    courses: [
+      'Accounting',
+      'Banking and Insurance',
+      'Taxation',
+      'Business Law',
+    ],
+  },
+  {
+    id: 9,
+    degree: 'Bachelor of Medicine, Bachelor of Surgery (MBBS)',
+    courses: [
+      'Anatomy',
+      'Physiology',
+      'Biochemistry',
+      'Pathology',
+      'Pharmacology',
+    ],
+  },
+];
 
   return (
     <div className="text-black">
