@@ -10,14 +10,15 @@ import {
 
 // Firebase config (do not modify on logout)
 const firebaseConfig = {
-  apiKey: "AIzaSyBzj4qu-Gwq0GiNnH4VpouXvuMskQ5Pel4",
-  authDomain: "appmy-28bf8.firebaseapp.com",
-  projectId: "appmy-28bf8",
-  storageBucket: "appmy-28bf8.appspot.com",
-  messagingSenderId: "1010049580716",
-  appId: "1:1010049580716:web:3f360f62fbb8dfb009e909",
-  measurementId: "G-6T1BNRL2QZ"
+  apiKey: "AIzaSyB_FVRoa8kMx8cxqnTQYAO3Yy5UebmffnI",
+  authDomain: "careernavigator-d4ed7.firebaseapp.com",
+  projectId: "careernavigator-d4ed7",
+  storageBucket: "careernavigator-d4ed7.firebasestorage.app",
+  messagingSenderId: "670555551987",
+  appId: "1:670555551987:web:9ccb55a3e7ddaf03b45f86",
+  measurementId: "G-R49GDSTDCN"
 };
+
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
